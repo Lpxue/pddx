@@ -1,0 +1,250 @@
+
+
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	margin: 0 auto;
+	padding-top: 10px;
+	width: 500px;
+	height: 1000px;
+}
+
+/*帽子*/
+.cap-top {
+	margin: 0 auto;
+	position: relative;
+	width: 260px;
+	height: 160px;
+	overflow: hidden;
+	border-top-left-radius: 102px;
+	border-top-right-radius: 102px;
+	
+}
+.cap-top-squre {
+	position: absolute;
+	top: 55px;
+	width: 260px;
+	height: 187px;
+	background: #f3736b;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+}
+.cap-top-round {
+	position: absolute;
+	top: 0px;
+	left: -120px;
+	width: 500px;
+	height: 500px;
+	background: #f3736b;
+	border-radius: 50%;
+}
+.cap-bottom {
+	margin-top: -200px;
+	width: 475px;
+	height: 475px;
+	background: #f3736b;
+	border: 5px solid #c40012;
+	border-radius: 50%;
+	transform: rotateX(105deg);
+}
+
+/*脸*/
+.face {
+	position: relative;
+	margin: 0 auto;
+	margin-top: -260px;
+	width: 308px;
+	height: 184px;
+	background: #fec57d;
+	border-radius: 50%;
+	z-index: 1;
+}
+.eyes {
+	width: 308px;
+	height: 184px;
+}
+.eye {
+	float: left;
+	width: 35px;
+	height: 40px;
+	background: white;
+	border-radius: 50%;
+	/*overflow: hidden;*/
+}
+/*眼仁*/
+.pupil {
+	margin-top: 4px;
+	margin-left: 2px;
+	width: 33px;
+	height: 33px;
+	border-radius: 50%;
+	background: rgba(0, 0, 0, 0.7);
+}
+.left-eye {
+	margin: 50px 0 0 85px;
+}
+.right-eye {
+	margin: 50px 0 0 60px;
+}
+.nose {
+	margin: 0 auto;
+	margin-top: -90px;
+	width: 56px;
+	height: 40px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 28px;
+	border-bottom-right-radius: 18px;
+	/*background: rgba(1, 1, 1, 0.8);*/
+}
+.mouth {
+	margin: 0 auto;
+	width: 76px;
+	height: 16px;
+	border-bottom: 3px solid #b06a22;
+	border-bottom-left-radius: 38px;
+	border-bottom-right-radius: 38px;
+}
+
+/*衣服*/
+#clothes {
+	width: 556px;
+	height: 380px;
+}
+.clothes {
+	position: absolute;
+	margin-left: 18px;
+	margin-top: -50px;
+	width: 458px;
+	height: 440px;
+	background: #2abdc0;
+	border-top-left-radius: 222px;
+	border-top-right-radius: 222px;
+}
+/*衣领*/
+.collar {
+	float: left;
+	margin-top: -32px;
+	width: 175px;
+	height: 60px;
+	background: #54bcba;
+}
+.left-collar {
+	margin-left: 88px;
+	transform: rotate(20deg);
+	border-top-left-radius: 54px;
+	border-bottom-left-radius: 84px;
+	border-bottom-right-radius: 84px;
+}
+.right-collar {
+	margin-left: -20px;
+	transform: rotate(160deg);
+	border-top-left-radius: 54px;
+	border-top-right-radius: 84px;
+	border-bottom-left-radius: 84px;
+}
+.collar-round {
+	
+}
+.legs {
+	clear: both;
+}
+.leg {
+	width: 86px;
+	height: 320px;
+	border-left: 5px solid #b18e75;
+	border-right: 5px solid #b18e75;
+	background: #2abdc0;
+}
+.left-leg {
+	float: left;
+	margin: -10px 0 0 0;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	transform: rotate(17deg);
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+.legs-hid {
+	width: 128px;
+	height: 170px;
+	background: #2abdc0;
+}
+.left-leg-hid {
+	float: left;
+	margin: 5px 0 0 -50px;
+	transform: rotate(22deg);
+}
+.right-leg {
+	float: right;
+	margin: -10px 58px 0 0;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	transform: rotate(165deg);
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+.right-leg-hid {
+	float: right;
+	margin: 5px -20px 0 0;
+	transform: rotate(165deg);
+}
+
+/*脚*/
+.ang {
+	position: relative;
+	margin: 0 auto;
+	margin-top: -158px;
+	width: 50px;
+	height: 180px;
+}
+.left-line {
+	position: absolute;
+	top: 13px;
+	width: 50px;
+	height: 160px;
+	border-left: 5px solid #574953;
+	background: white;
+
+	transform: rotate(10deg);
+}
+.right-line {
+	float: left;
+	margin: -5px 0 0 25px;
+	width: 50px;
+	height: 170px;
+	border-right: 5px solid #574953;
+	background: #2abdc0;
+	transform: rotate(170deg);
+}
+.foot {
+	float: left;
+	margin-top: -20px;
+	width: 120px;
+	height: 100px;
+	background: #d7b37c;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+.left-foot {
+	margin-left: 60px;
+}
+.right-foot {
+	margin-left: 130px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
